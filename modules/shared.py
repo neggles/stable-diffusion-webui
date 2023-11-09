@@ -55,6 +55,7 @@ latent_upscale_modes = {
     "Latent (bicubic antialiased)": {"mode": "bicubic", "antialias": True},
     "Latent (nearest)": {"mode": "nearest", "antialias": False},
     "Latent (nearest-exact)": {"mode": "nearest-exact", "antialias": False},
+    "Latent (bislerp)": {"mode": "bislerp", "antialias": False},
 }
 
 sd_upscalers = []
